@@ -1,0 +1,31 @@
+.slick-list {
+    overflow: hidden;
+}
+.slick-track{
+    display: flex;
+    justify-content: center;
+}
+.slick-slide{
+    min-width: 0;
+}
+.slick-dots{
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    padding: 0 15px;
+}
+.slick-dots li{
+    list-style: none;
+}
+.slick-dots li button{
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+}
+.slick-dots li.slick-active button {
+    background-color: $tomatoLightColor;
+}

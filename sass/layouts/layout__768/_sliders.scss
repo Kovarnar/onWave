@@ -1,0 +1,22 @@
+.slick-arrow{
+    display: unset;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    font-size: 0;
+    width: 16px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+}
+.slick-arrow.slick-prev{
+    left: 0px;
+    background-image: url('../img/left.svg');
+    background-size: 16px 30px;
+}
+.slick-arrow.slick-next{
+    right: 0px;
+    background-image: url('../img/right.svg');
+    background-size: 16px 30px;
+}

@@ -1,0 +1,21 @@
+.button {
+    min-width: 154px;
+    min-height: 40px;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-family: $montserratFont;
+    font-size: rem(16px);
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    &--white {
+        border: 1px solid $brownLightColor;
+        color: $whiteColor;
+    }
+    &:hover, &:focus {
+        color: $whiteColor;
+        border: none;
+        background-color: $tomatoLightColor;
+    }
+}
+

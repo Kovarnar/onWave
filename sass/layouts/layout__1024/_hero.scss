@@ -1,0 +1,25 @@
+.hero{
+    height: 700px;
+    &__container {
+        right: 100px;
+        top: 120px;
+    }
+    &__wrapper {
+        width: 330px;
+        margin-right: 0;
+    }
+    &__text-slider {
+        margin-bottom: 50px;
+    }
+    &__title {
+        font-size: rem(40px);
+    }
+    &__slider {
+        .slick-dots {
+            bottom: 50px;
+        }
+    }
+    &__slider-image{
+        height: 700px;
+    }
+}

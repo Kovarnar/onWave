@@ -1,0 +1,35 @@
+.partners {
+    background-color: $brownLightColor;
+    padding: 50px 0 82px;
+    &__container {
+        padding: 0 10px;
+    }
+    &__title {
+        font-family: $montserratFont;
+        font-size: rem(20px);
+        font-weight: 700;
+        color: $blackColor;
+        line-height: 1.2;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+    &__slider {
+        height: 65px;
+        position: relative;
+        .slick-dots {
+            margin-top: 20px;
+        }
+        .slick-dots li button{
+            background-color: $darkDotInactiveColor;
+        }
+        .slick-dots li.slick-active button {
+            background-color: $tomatoLightColor;
+        }
+    }
+    &__slider-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

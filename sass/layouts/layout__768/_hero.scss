@@ -1,0 +1,14 @@
+.hero{
+    height: 380px;
+    &__container {
+        right: 14px;
+    }
+    &__wrapper {
+        margin-right: 68px;
+    }
+    &__slider {
+    }
+    &__slider-image{
+        height: 380px;
+    }
+}
